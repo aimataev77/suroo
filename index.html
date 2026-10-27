@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Менин сайтым</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #312e81);
+      color: white;
+      text-align: center;
+    }
+
+    nav {
+      padding: 20px;
+      background: #111827;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 90px 20px;
+    }
+
+    h1 {
+      font-size: 44px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #d1d5db;
+      line-height: 1.7;
+    }
+
+    button {
+      padding: 14px 28px;
+      border: none;
+      border-radius: 10px;
+      background: #38bdf8;
+      color: #0f172a;
+      font-size: 17px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #7dd3fc;
+    }
+
+    footer {
+      padding: 20px;
+      background: #111827;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>Менин сайтым 🚀</nav>
+
+  <main>
+    <h1>Салам, дүйнө! 👋</h1>
+    <p>
+      Менин биринчи сайтыма кош келиңиз!<br>
+      Бул сайтты HTML жана CSS менен жасадым.
+    </p>
+    <button onclick="showMessage()">
+      Мени бас!
+    </button>
+    <p id="message"></p>
+  </main>
+
+  <footer>© 2026 | Менин биринчи сайтым</footer>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").textContent =
+        "Куттуктайм! Сайтың ийгиликтүү иштеп жатат 🎉";
+    }
+  </script>
+
+</body>
+</html>
